@@ -48,19 +48,13 @@
                                     <rect key="frame" x="0.0" y="756" width="400" height="44"/>
                                 </variation>
                             </searchBar>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Pva-Ar-cdW">
-                                <rect key="frame" x="-47" y="-14" width="94" height="29"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="5" y="105" width="94" height="29"/>
-                                </variation>
-                            </stepper>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="I AM A TEXT BOX THAT LIKES TO TEXT TEXT BOXES BECAUSE TEXTING ANOTHER TEXT BOX ALLOWS TEXTING FOR PRO TEXTERS" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5Fz-C7-aIw">
                                 <rect key="frame" x="181" y="86" width="238" height="97"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="97" y="92" width="238" height="97"/>
+                                    <rect key="frame" x="133" y="86" width="238" height="97"/>
                                 </variation>
                             </textView>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hlr-zE-bYf">
@@ -82,7 +76,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4fw-u7-BVj">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="266" y="266" width="51" height="31"/>
+                                    <rect key="frame" x="297" y="234" width="51" height="31"/>
                                 </variation>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uS0-1S-rIE">
@@ -94,19 +88,19 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tj4-Zm-NfD">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="107" y="337" width="51" height="31"/>
+                                    <rect key="frame" x="91" y="359" width="51" height="31"/>
                                 </variation>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqc-OS-T5y">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="222" y="310" width="51" height="31"/>
+                                    <rect key="frame" x="222" y="278" width="51" height="31"/>
                                 </variation>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pTM-1W-BuQ">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="124" y="294" width="51" height="31"/>
+                                    <rect key="frame" x="141" y="309" width="51" height="31"/>
                                 </variation>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jaD-nf-qhc">
@@ -118,19 +112,19 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GQl-oJ-c6e">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="309" y="369" width="51" height="31"/>
+                                    <rect key="frame" x="322" y="379" width="51" height="31"/>
                                 </variation>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NL7-cg-rSR">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="292" y="310" width="51" height="31"/>
+                                    <rect key="frame" x="266" y="343" width="51" height="31"/>
                                 </variation>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5PE-d4-Ef6">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="230" y="369" width="51" height="31"/>
+                                    <rect key="frame" x="176" y="379" width="51" height="31"/>
                                 </variation>
                             </switch>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="2Lv-iz-A40">
@@ -146,7 +140,7 @@
                                     <rect key="frame" x="165" y="496" width="43" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="clickedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLQ-ql-UQ0"/>
+                                    <action selector="clickedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xxb-wc-al2"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NICE WORDS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bb-gb-IIg">
@@ -161,15 +155,20 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECq-br-TAb">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="169" y="249" width="51" height="31"/>
+                                    <rect key="frame" x="50" y="240" width="51" height="31"/>
                                 </variation>
                             </switch>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Pva-Ar-cdW">
+                                <rect key="frame" x="-47" y="-14" width="94" height="29"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="105" width="94" height="29"/>
+                                </variation>
+                            </stepper>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="Pva-Ar-cdW"/>
                                 <exclude reference="Hlr-zE-bYf"/>
                                 <exclude reference="4fw-u7-BVj"/>
                                 <exclude reference="uS0-1S-rIE"/>
@@ -184,11 +183,11 @@
                                 <exclude reference="saz-bP-c0F"/>
                                 <exclude reference="4bb-gb-IIg"/>
                                 <exclude reference="ECq-br-TAb"/>
+                                <exclude reference="Pva-Ar-cdW"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="Pva-Ar-cdW"/>
                                 <include reference="Hlr-zE-bYf"/>
                                 <include reference="4fw-u7-BVj"/>
                                 <include reference="uS0-1S-rIE"/>
@@ -203,6 +202,7 @@
                                 <include reference="saz-bP-c0F"/>
                                 <include reference="4bb-gb-IIg"/>
                                 <include reference="ECq-br-TAb"/>
+                                <include reference="Pva-Ar-cdW"/>
                             </mask>
                         </variation>
                         <connections>
@@ -212,7 +212,7 @@
                     <connections>
                         <outlet property="background" destination="8bC-Xf-vdC" id="Ib4-TS-G0x"/>
                         <outlet property="firstButton" destination="saz-bP-c0F" id="byN-ca-wtf"/>
-                        <outlet property="textLabel" destination="4bb-gb-IIg" id="CVf-sR-8Ut"/>
+                        <outlet property="textLabel" destination="4bb-gb-IIg" id="1yH-55-5Sx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
