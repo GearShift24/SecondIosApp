@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController
 {
     
+    @IBOutlet weak var background: UIView!
+    
     @IBOutlet weak var firstButton: UIButton!
     
     @IBOutlet weak var textLabel: UILabel!
@@ -29,7 +31,7 @@ class ViewController: UIViewController
     {
         textLabel.text = "You clicked me!"
         textLabel.textColor = UIColor.cyanColor()
-        
+        background.backgroundColor = UIColor.blackColor()
     }
 
 }

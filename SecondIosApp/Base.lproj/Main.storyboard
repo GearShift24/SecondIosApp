@@ -210,7 +210,7 @@
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="UIButton" destination="saz-bP-c0F" id="FEf-Z2-0uf"/>
+                        <outlet property="background" destination="8bC-Xf-vdC" id="Ib4-TS-G0x"/>
                         <outlet property="firstButton" destination="saz-bP-c0F" id="byN-ca-wtf"/>
                         <outlet property="textLabel" destination="4bb-gb-IIg" id="CVf-sR-8Ut"/>
                     </connections>
