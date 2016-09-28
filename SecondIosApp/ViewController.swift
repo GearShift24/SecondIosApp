@@ -11,9 +11,9 @@ import UIKit
 class ViewController: UIViewController
 {
     
-    @IBOutlet weak var background: UIView!
+    @IBOutlet private weak var background: UIView!
     
-    @IBOutlet weak var firstButton: UIButton!
+    @IBOutlet private weak var firstButton: UIButton!
 
     @IBOutlet weak var textLabel: UILabel!
     
