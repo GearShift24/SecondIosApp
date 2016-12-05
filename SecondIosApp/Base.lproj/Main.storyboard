@@ -79,12 +79,6 @@
                                     <rect key="frame" x="297" y="234" width="51" height="31"/>
                                 </variation>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uS0-1S-rIE">
-                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="159" y="247" width="51" height="31"/>
-                                </variation>
-                            </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tj4-Zm-NfD">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -164,6 +158,12 @@
                                     <rect key="frame" x="20" y="105" width="94" height="29"/>
                                 </variation>
                             </stepper>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uS0-1S-rIE">
+                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="159" y="247" width="51" height="31"/>
+                                </variation>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -171,7 +171,6 @@
                             <mask key="subviews">
                                 <exclude reference="Hlr-zE-bYf"/>
                                 <exclude reference="4fw-u7-BVj"/>
-                                <exclude reference="uS0-1S-rIE"/>
                                 <exclude reference="tj4-Zm-NfD"/>
                                 <exclude reference="bqc-OS-T5y"/>
                                 <exclude reference="pTM-1W-BuQ"/>
@@ -184,13 +183,13 @@
                                 <exclude reference="4bb-gb-IIg"/>
                                 <exclude reference="ECq-br-TAb"/>
                                 <exclude reference="Pva-Ar-cdW"/>
+                                <exclude reference="uS0-1S-rIE"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Hlr-zE-bYf"/>
                                 <include reference="4fw-u7-BVj"/>
-                                <include reference="uS0-1S-rIE"/>
                                 <include reference="tj4-Zm-NfD"/>
                                 <include reference="bqc-OS-T5y"/>
                                 <include reference="pTM-1W-BuQ"/>
@@ -203,6 +202,7 @@
                                 <include reference="4bb-gb-IIg"/>
                                 <include reference="ECq-br-TAb"/>
                                 <include reference="Pva-Ar-cdW"/>
+                                <include reference="uS0-1S-rIE"/>
                             </mask>
                         </variation>
                         <connections>
